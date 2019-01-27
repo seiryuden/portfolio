@@ -96,6 +96,8 @@ section{
     align-items: center;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
     margin: 4% auto;
     border-radius: 2px;
     border: 0.5px dotted white;
@@ -122,6 +124,12 @@ footer{
     nav{
         font-size: 1.35em;
         
+    }
+
+    .thumb-cont{
+       
+        
+        height: 300px;
     }
 }
 
