@@ -51,17 +51,14 @@ nav ul{
 }
 
 
-
 .menu-item{
     padding: 5% 0 0 0;
     margin: 0 6px 0 6px;
-    font-size: 0.9em;
-    
+    font-size: 0.9em;  
 }
 
 .menu-item:hover{
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 main{
@@ -73,8 +70,6 @@ header, .content, section{
     display: flex;
     flex-direction: column;
 }
-
-
 
 header{
     max-width: 100%;
@@ -96,7 +91,7 @@ header{
 }
 
 .intro-text{
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 section{
@@ -136,10 +131,14 @@ img{
     margin-top: 2%;
 }
 
+.repo{
+    height: 20px;
+    width: auto;
+    margin-top: 3%;
+}
+
 .about-text{
     margin-bottom: 7%;
-    
-
 }
 
 .wrap-contact{
@@ -162,8 +161,6 @@ img{
     width: 70px;
 }
 
-
-
 footer{
     display: flex;
     justify-content: flex-start;
@@ -172,7 +169,7 @@ footer{
     width: 100%;
     height: 40px;
     border-top: 0.4px solid rgba(250,250,250,0.5);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .foot-item{
@@ -181,8 +178,8 @@ footer{
 }
 
 .foot-logo{
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: auto;
     vertical-align: middle;
     
 }
@@ -244,7 +241,8 @@ footer{
     .name{
         position: absolute;
         top: 4%;
-        left: 12%;
+        left: 16%;
+        font-size: 24px;
      }
 
      .lname{
@@ -259,10 +257,6 @@ footer{
     .menu-item{
         display: block;
         margin: 14% auto;
-    }
-
-    .first{
-        margin-top: 40%;
     }
 
     

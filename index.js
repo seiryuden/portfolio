@@ -8,10 +8,13 @@ function work(){
         <section>
             <div class="thumb-cont">
             <a href="https://seiryuden.github.io/nintendo-quiz/" target="_blank"><img src="nintendo-quiz-img.jpg" alt="nintendo quiz thumbnail"></a> 
+            
             </div>
             <div class="description-cont">
+            
                 <h1 class="project-name">Nintendo Short Quiz</h1>
-                <p class="description"> A small quiz app I created as part of my web development training, using HTML, CSS, JavaScript and JQuery.</p>  
+                <p class="description"> A small quiz app I created as part of my web development training, using HTML, CSS, JavaScript and JQuery.</p> 
+                <a href="https://github.com/seiryuden/nintendo-quiz"><img src="github.png" class="repo" alt="github logo"></a> 
             </div>
         </section>
 
@@ -66,11 +69,11 @@ function contact(){
     return `
 
         <div class="wrap-contact"
-            <p class="email"> <img class="contact-logo contact-item mail-logo" src="mail.jpg"> <a href="mailto:roberto.il@outlook.com">roberto.il@outlook.com</a></p>
+            <p class="email"> <img class="contact-logo contact-item mail-logo" src="mail.jpg" alt="letter icon"> <a href="mailto:roberto.il@outlook.com">roberto.il@outlook.com</a></p>
 
-            <p class="line-id"> <img class="contact-logo contact-item" src="line.png"> ID: ribarra </p>
+            <p class="line-id"> <img class="contact-logo contact-item" src="line.png" alt="line message app logo"> ID: ribarra </p>
         
-            <a class="linkedin" href="https://www.linkedin.com/in/roberto-ibarra-16471617a/"><img class="contact-logo contact-item" src="linkedin.png"></a>
+            <a class="linkedin" href="https://www.linkedin.com/in/roberto-ibarra-16471617a/"><img class="contact-logo contact-item" src="linkedin.png" alt="linkedIn logo"></a>
         </div>
     
     `
