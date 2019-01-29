@@ -131,6 +131,12 @@ img{
     margin-top: 2%;
 }
 
+.project-name{
+
+    font-size: 20px; 
+
+}
+
 .repo{
     height: 20px;
     width: auto;
