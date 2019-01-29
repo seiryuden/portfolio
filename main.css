@@ -135,6 +135,7 @@ img{
     height: 20px;
     width: auto;
     margin-top: 3%;
+    border: solid 1px white;
 }
 
 .about-text{
