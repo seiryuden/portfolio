@@ -8,69 +8,36 @@
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Questrial|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial|Nanum+Gothic|Armata|Bai+Jamjuree|Bungee+Inline|Didact+Gothic|Julius+Sans+One|Montserrat+Alternates" rel="stylesheet">
 </head>
 <body>
     <nav>
         <ul>
-            <li class="name"><h1>Roberto <span class="lname">Ibarra</span></h1></li>
-            <li class="menu">&#9776;</li>
-            <li class="menu-item first">Work</li>
-            <li class="menu-item">About</li>
-            <li class="menu-item">Contact</li>
+            <li class="name"><a href="index.html" class="name-link"> <h1>Roberto <span class="lname">Ibarra</span></h1></a></li>
+            <ul class="menu">
+                <li class="menu-item js-work">Work</li>
+                <li class="menu-item js-about">About</li>
+                <li class="menu-item js-contact">Contact</li>
+            </ul>
         </ul>
     </nav>
 
     <main> 
         <header role="banner"></header>
 
-            <div class="work"> 
-                <section>
-                    <div class="thumb-cont">
-                       <a href="https://seiryuden.github.io/nintendo-quiz/" target="_blank"><img src="nintendo-quiz-img.jpg" alt="nintendo quiz thumbnail"></a> 
-                    </div>
-                    <div class="description-cont">
-                        <h1 class="project-name">Nintendo Short Quiz</h1>
-                        <p class="description"> A small quiz app created as part of my web development training, using HTML, CSS, JavaScript and JQuery.</p>  
-                    </div>
-                </section>
-
-                <section>
-                    <div class="thumb-cont">
-                        
-                    </div>
-                    <div class="description-cont">
-                        <h1 class="project-name">Project Name</h1>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc a neque mattis, quis maximus enim tincidunt. Sed maximus velit ligula.</p>
-                    </div>
-                </section>
-
-                <section>
-                    <div class="thumb-cont">
-                        
-                    </div>
-                    <div class="description-cont">
-                        <h1 class="project-name">Project Name</h1>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc a neque mattis, quis maximus enim tincidunt. Sed maximus velit ligula.</p>
-                    </div>
-                </section>
-
-                <section>
-                    <div class="thumb-cont">
-                        
-                    </div>
-                    <div class="description-cont">
-                        <h1 class="project-name">Project Name</h1>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc a neque mattis, quis maximus enim tincidunt. Sed maximus velit ligula.</p>  
-                    </div>
-                </section>
+        <div class="content js-content"> 
+            
+            <p class="intro-text">I’m a Fullstack developer & UI/UX enthusiast, currently based in Osaka, Japan.</p>        
                 
         </div>
-            
+        
+        
     </main>
 
     <footer>
-        <h3>Footer</h3>
+        <a href="mailto:roberto.il@outlook.com" class="foot-item">roberto.il@outlook.com</a>
+              
+        <a class="foot-item" href="https://www.linkedin.com/in/roberto-ibarra-16471617a/" target="_blank"><img class="foot-logo" src="linkedin.png"></a>
     </footer>
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
