@@ -7,24 +7,26 @@ function work(){
     <div class="wrap-work"> 
         <section>
             <div class="thumb-cont">
-            <a href="https://seiryuden.github.io/nintendo-quiz/" target="_blank"><img src="nintendo-quiz-img.jpg" alt="nintendo quiz thumbnail"></a> 
+            <a href="https://seiryuden.github.io/nintendo-quiz/" target="_blank"><img src="img/nintendo-quiz-img.jpg" alt="nintendo quiz thumbnail"></a> 
             
             </div>
             <div class="description-cont">
             
                 <h1 class="project-name">Nintendo Short Quiz</h1>
                 <p class="description"> A small quiz app I created as part of my web development training, using HTML, CSS, JavaScript and JQuery.</p> 
-                <a href="https://github.com/seiryuden/nintendo-quiz"><img src="github.png" class="repo" alt="github logo"></a> 
+                <a href="https://github.com/seiryuden/nintendo-quiz"><img src="img/github.png" class="repo" alt="github logo"></a> 
             </div>
         </section>
 
         <section>
             <div class="thumb-cont">
+            <a href="https://seiryuden.github.io/vgp-monitor/" target="_blank"><img src="img/ss-landing.jpg" alt="vgpm thumbnail"></a>
                 
             </div>
             <div class="description-cont">
-                <h1 class="project-name">Project Name</h1>
-                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc a neque mattis, quis maximus enim tincidunt. Sed maximus velit ligula.</p>
+                <h1 class="project-name">VGP Monitor</h1>
+                <p class="description">An app for fetching and displaying news and other online content related to major video game platforms. It provides a quick overview of material published by popular websites (e.g. Gamespot, Youtube) in the specified date. Built with HTML, CSS, JavaScript and JQuery.</p>
+                <a href="https://github.com/seiryuden/vgp-monitor"><img src="img/github.png" class="repo" alt="github logo"></a>
             </div>
         </section>
 
@@ -69,11 +71,11 @@ function contact(){
     return `
 
         <div class="wrap-contact"
-            <p class="email"> <img class="contact-logo contact-item mail-logo" src="mail.jpg" alt="letter icon"> <a href="mailto:roberto.il@outlook.com">roberto.il@outlook.com</a></p>
+            <p class="email"> <img class="contact-logo contact-item mail-logo" src="img/mail.jpg" alt="letter icon"> <a href="mailto:roberto.il@outlook.com">roberto.il@outlook.com</a></p>
 
-            <p class="line-id"> <img class="contact-logo contact-item" src="line.png" alt="line message app logo"> ID: ribarra </p>
+            <p class="line-id"> <img class="contact-logo contact-item" src="img/line.png" alt="line message app logo"> ID: ribarra </p>
         
-            <a class="linkedin" href="https://www.linkedin.com/in/roberto-ibarra-16471617a/"><img class="contact-logo contact-item" src="linkedin.png" alt="linkedIn logo"></a>
+            <a class="linkedin" href="https://www.linkedin.com/in/roberto-ibarra-16471617a/"><img class="contact-logo contact-item" src="img/linkedin.png" alt="linkedIn logo"></a>
         </div>
     
     `
