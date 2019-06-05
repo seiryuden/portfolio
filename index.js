@@ -75,7 +75,7 @@ function contact(){
 
             <p class="line-id"> <img class="contact-logo contact-item" src="img/line.png" alt="line message app logo"> ID: ribarra </p>
         
-            <a class="linkedin" href="https://www.linkedin.com/in/roberto-ibarra-16471617a/"><img class="contact-logo contact-item" src="img/linkedin.png" alt="linkedIn logo"></a>
+            <a class="linkedin" href="https://www.linkedin.com/in/roberto-ibarra-05a292184/"><img class="contact-logo contact-item" src="img/linkedin.png" alt="linkedIn logo"></a>
         </div>
     
     `
