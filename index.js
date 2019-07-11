@@ -58,11 +58,13 @@ function work(){
 function about(){
     return `
     <div class="wrap-about">
-        <p class="about-text">I'm passionate about crafting appealing and highly-polished user interfaces, as I am about programming their interactivity and see it work flawlessly. In my work I strive for quality not only because of its economic value, but because I derive self-realization and meaning from it.  
+        <p class="about-text">I'm passionate about crafting appealing and highly-polished user interfaces. In my work I strive for quality not only because of its economic value, but because I derive self-realization and meaning from it.  
         </p>
-        <p class="about-text">I recently graduated from <a href="https://www.thinkful.com/"> Thinkful's</a> full-stack web development bootcamp, where I mastered the skills to build websites using HTML, CSS, JavaScript, JQuery and React, as well as Node & Postgres. Apart from my technical skills, during my years working as a lawyer I’ve been recognized as highly reliable and cooperative, able to learn from criticism, capable of working under pressure and of maintaining great interpersonal relationships. 
+        <p class="about-text">I learned front-end web development at <a href="https://www.thinkful.com/"> Thinkful's</a> full-stack bootcamp, where I mastered skills to build websites using HTML, CSS, JavaScript, JQuery and ReactJS. Currently I'm also studying back-end technologies such as Node and Postgres. Apart from my technical skills, during my years working as a lawyer I’ve been recognized as highly reliable and cooperative, capable of working under pressure and of maintaining great interpersonal relationships. 
         </p>
-        <p class="about-text">When I’m not coding, I’m usually studying Japanese, hiking, spending time with friends or playing video games (I wish I had more time for them!). I also enjoy exploring the local cuisine and having a little taste of Chile (my home country) by opening a selected bottle of wine.</p>
+        <p class="about-text">When I’m not coding, I’m usually studying Japanese, hiking, spending time with friends or playing video games (I wish I had more time for them!).</p>
+
+        <p>Languages: English (fluent), Spanish (native) and Japanese (intermediate).</p>
     </div>
     `
 }
