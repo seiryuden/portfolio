@@ -1,30 +1,52 @@
 *{
     box-sizing: border-box;
-    color: white;
+    
     line-height: 24px;  
 }
 
-html, body{
-    height: 100%;
-    background-color: black;
-    text-align: center;
+html{
+    min-height: 100%;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    background-image: url(img/shrine\ front.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 48%;
+    
+    
+    background-attachment: fixed;
 }
 
 
 nav{
     position: fixed;
+    top: 0;
     display: flex;
     width: 100%;
     height: 8%;
     padding-right: 2%;
     font-family: 'Questrial', sans-serif;
     font-size: 1.1em;
-    background: black;
+    
+    color: whitesmoke;
+    background:   rgba(71, 23, 126, 0.87);
 }
 
 nav ul{
+    
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -33,11 +55,9 @@ nav ul{
 }
 
 .name{
-    position: absolute;
-    left: 2%;
-    padding: 3% 0 0 0;
+    align-self: center;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     
 }
 
@@ -48,11 +68,18 @@ nav ul{
 
 .name-link{
     text-decoration: none;
+    
+    color: white;
 }
 
+.menu{
+    display: flex;
+    flex-direction: row;
+    
+}
 
 .menu-item{
-    padding: 5% 0 0 0;
+    align-self: center;
     margin: 0 6px 0 6px;
     font-size: 0.9em;  
 }
@@ -62,9 +89,13 @@ nav ul{
 }
 
 main{
-    width: 100%;
     min-height: 100%;
+    width: 100%;  
+    
+    
 }
+
+
 
 header, .content, section{
     display: flex;
@@ -72,32 +103,57 @@ header, .content, section{
 }
 
 header{
-    max-width: 100%;
-    height: 31vh;
-    background-color: black;
-    background-image: url(img/hero-img.jpg);
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+    height: 20%;    
+    background: none;  
+    margin: auto;
  
 }
 
+
+
+.robpic{
+    width: 100px;
+    height: auto;
+    margin: 0 auto 15px;
+    border: rgb(176, 176, 177) 1px solid;
+    border-radius: 3%;
+    
+}
+
+
 .content{
     background: none;
-    width: 80%;
+    width: 87%;
     height: 100%;
-    margin: 9% auto;
+    margin: 20% auto 15%; 
     border-radius: 4px;
     padding-top: 5%;
 }
 
 .intro-text{
-    margin-top: 25px;
+    
+    width: 93%;
+    padding: 10px 0px;
+    border-radius: 3px;
+    margin: 200px auto;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    background: rgba(245, 245, 245, 0.87);
+}
+
+.wrap-work{
+    background: rgba(255, 255, 255, 0.950);
+    border: double 5px rgb(206, 172, 100);
+    border-radius: 3px;
+    color: rgb(0, 0, 0)
 }
 
 section{
-    padding: 0 0 1% 0;
+    padding: 0 0 0 0;
     justify-content: space-around;
-    margin: 0 2% 0% 2%;
+    margin: 3% 2%;
+    
 }
 
 .thumb-cont{
@@ -109,10 +165,14 @@ section{
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
-    margin: 18% auto 0;
+    margin: 10% auto 0;
     border-radius: 2px;
     border: 0.5px dotted white;
     
+}
+
+.placeholder{
+    border: 1px solid grey;
 }
 
 img{
@@ -144,12 +204,26 @@ img{
     border: solid 1px white;
 }
 
+.wrap-about{
+    background: rgba(255, 255, 255, 0.950);
+    border: double 5px rgb(59, 100, 177);
+    
+    color: black;
+    border-radius: 3px;
+    padding: 30px 16px;
+}
 .about-text{
     margin-bottom: 7%;
 }
 
 .wrap-contact{
-    padding-top: 15%;
+    padding: 12% 0;
+    background: rgba(255, 255, 255, 0.950);
+    border: double 5px rgb(85, 131, 24);
+
+    border-radius: 3px;
+    
+
 }
 
 .email, .line-id, .linkedin{
@@ -166,6 +240,7 @@ img{
 
 .mail-logo{
     width: 70px;
+    height:40px;
 }
 
 footer{
@@ -174,14 +249,17 @@ footer{
     padding-left: 6%;
     align-items: center;
     width: 100%;
-    height: 40px;
-    border-top: 0.4px solid rgba(250,250,250,0.5);
+    height: 36px;
+    border-top: 0.4px solid rgba(250, 250, 250, 0.5);
     font-size: 14px;
+    background: rgb(71, 23, 126);
+    justify-self: flex-end;
 }
 
 .foot-item{
     margin: 0 5%;
     text-decoration: none;
+    color: white;
 }
 
 .foot-logo{
@@ -225,11 +303,18 @@ footer{
 
     html, body{
         font-size: 17px;
+        
     }
 
+    html{
+        min-height: 105%;
+    }
+    
+/*
+    
     nav{
-        position: fixed;
-        width: 18%;
+        
+        
         height: 100%;
         padding: 0;
         
@@ -244,40 +329,40 @@ footer{
         height: 100%;
 
     }
-
+*/
     .name{
         position: absolute;
-        top: 4%;
-        left: 16%;
-        font-size: 24px;
+        
+        left: 3%;
+        font-size: 22px;
      }
 
-     .lname{
-         display: block;
+     
 
-     }
-
-     .menu{
-        margin-top: 25%;
-    }
 
     .menu-item{
-        display: block;
-        margin: 14% auto;
+        
+        margin: 0% 3%;
     }
 
-    
-
     main{
-        width: 100%;
+        height: 98%;
+    }
+
+    .main-section{
+        padding: 0;
         
     }
 
-
     .content{
-        margin: 1% 0 0 21%;
-        width: 75%;
+        padding-top: 7%;
+        margin: 0 auto;
+        width: 70%;
         background: none;
+    }
+
+    .intro-text{
+        margin: 260px auto 0;
     }
 
     .thumb-cont{
@@ -286,13 +371,15 @@ footer{
         
     }
 
-    footer{
-        width: 80%;
-        margin-left: 20%;
+    .description-cont{
+        width: 93%;
+        padding: 2%;
+        margin: 1% auto 4%;
     }
-
+    
     .wrap-about{
         width: 77%;
+        padding: 30px 65px;
         margin: auto auto;
     }
 
@@ -300,10 +387,26 @@ footer{
         margin-bottom: 3%;
     }
 
-    .wrap-contact{
-        margin-left: -25px;
+    .wrap-work{
+        padding: 0;
     }
 
+    .wrap-contact{
+        
+        margin: 0 auto;
+        min-width: 27%;
+        padding: 8%;
+    }
+
+    .email, .line-id, .linkedin{
+        margin: 25% auto;
+        
+    }
+
+   footer{
+       padding-top: 7px;
+       padding-bottom: 7px;
+   }
     
 }
 
