@@ -144,7 +144,7 @@ header{
 
 .wrap-work{
     background: rgba(255, 255, 255, 0.950);
-    border: double 5px rgb(206, 172, 100);
+    border: double 3px rgb(206, 172, 100);
     border-radius: 3px;
     color: rgb(0, 0, 0)
 }
@@ -153,6 +153,7 @@ section{
     padding: 0 0 0 0;
     justify-content: space-around;
     margin: 3% 2%;
+    border: solid 1px rgba(179, 179, 179, 0.459);
     
 }
 
@@ -206,7 +207,7 @@ img{
 
 .wrap-about{
     background: rgba(255, 255, 255, 0.950);
-    border: double 5px rgb(59, 100, 177);
+    border: double 3px rgb(59, 100, 177);
     
     color: black;
     border-radius: 3px;
@@ -219,7 +220,7 @@ img{
 .wrap-contact{
     padding: 12% 0;
     background: rgba(255, 255, 255, 0.950);
-    border: double 5px rgb(85, 131, 24);
+    border: double 3px rgb(85, 131, 24);
 
     border-radius: 3px;
     
@@ -394,8 +395,8 @@ footer{
     .wrap-contact{
         
         margin: 0 auto;
-        min-width: 27%;
-        padding: 8%;
+        min-width: 25%;
+        padding: 5%;
     }
 
     .email, .line-id, .linkedin{
