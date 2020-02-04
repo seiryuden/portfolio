@@ -203,6 +203,7 @@ img{
     width: auto;
     margin-top: 3%;
     border: solid 1px white;
+    background: grey;
 }
 
 .wrap-about{
