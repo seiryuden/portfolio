@@ -5,6 +5,19 @@ function work(){
     return `
     
     <div class="wrap-work"> 
+        
+        <section>
+            <div class="thumb-cont">
+            <a href="https://seiryuden.github.io/vgp-monitor/" target="_blank"><img src="img/ss-landing.jpg" alt="vgpm thumbnail"></a>
+                
+            </div>
+            <div class="description-cont">
+                <h1 class="project-name">VGP Monitor</h1>
+                <p class="description">An app for fetching news related to major video game platforms from popular websites. Built with HTML, CSS, JavaScript and JQuery.</p>
+                <a href="https://github.com/seiryuden/vgp-monitor"><img src="img/github.png" class="repo" alt="github logo"></a>
+            </div>
+        </section>
+
         <section>
             <div class="thumb-cont">
             <a href="https://seiryuden.github.io/nintendo-quiz/" target="_blank"><img src="img/nintendo-quiz-img.jpg" alt="nintendo quiz thumbnail"></a> 
@@ -15,18 +28,6 @@ function work(){
                 <h1 class="project-name">Nintendo Short Quiz</h1>
                 <p class="description"> A small quiz app I created as part of my web development training, using HTML, CSS, JavaScript and JQuery.</p> 
                 <a href="https://github.com/seiryuden/nintendo-quiz"><img src="img/github.png" class="repo" alt="github logo"></a> 
-            </div>
-        </section>
-
-        <section>
-            <div class="thumb-cont">
-            <a href="https://seiryuden.github.io/vgp-monitor/" target="_blank"><img src="img/ss-landing.jpg" alt="vgpm thumbnail"></a>
-                
-            </div>
-            <div class="description-cont">
-                <h1 class="project-name">VGP Monitor</h1>
-                <p class="description">An app for fetching news related to major video game platforms from popular websites. Built with HTML, CSS, JavaScript and JQuery.</p>
-                <a href="https://github.com/seiryuden/vgp-monitor"><img src="img/github.png" class="repo" alt="github logo"></a>
             </div>
         </section>
 
