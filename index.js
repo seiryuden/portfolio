@@ -51,13 +51,13 @@ function about(){
     return `
     <div class="wrap-about">
         <div class="js-header"><img class="robpic" src="img/rob.jpg"></img></div>
-        <p class="about-text">I'm passionate about crafting appealing and highly polished user interfaces. In my work I strive for quality not only as a means for economic value, but also as a source of self-realization.
+        <p class="about-text">I'm passionate about crafting appealing and highly polished user interfaces. Pursuing quality as a means for economic value but also as a source of self-realization is my guiding principle.
         </p>
-        <p class="about-text">I learned front-end web development at <a href="https://www.thinkful.com/"> Thinkful's</a> full-stack bootcamp, and I'm currently studying back-end technologies such as Node and Postgres. Before doing web development I worked in Chile for several years as a lawyer, mostly in the areas of contract law, corporate law and public procurement.  
+        <p class="about-text">I learned front-end web development at <a href="https://www.thinkful.com/"> Thinkful's</a> full-stack bootcamp, after working many years in the legal field in my home country.  
         </p>
         <p class="about-text">When I’m not coding, I’m usually studying Japanese, hiking or spending time with friends.</p>
 
-        <p>Languages: English (fluent), Spanish (native) and Japanese (intermediate).</p>
+        <p>Languages: English, Spanish and Japanese.</p>
     </div>
     `
 }
