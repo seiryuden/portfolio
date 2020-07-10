@@ -36,7 +36,7 @@ function work(){
                 
             </div>
             <div class="description-cont">
-                <h1 class="project-name">ReactJS project for language learning - Coming soon</h1>
+                <h1 class="project-name">ReactJS project for language learning - Upcoming</h1>
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus nunc a neque mattis, quis maximus enim tincidunt. Sed maximus velit ligula.</p>
             </div>
         </section>
