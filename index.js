@@ -57,7 +57,7 @@ function about(){
         </p>
         <p class="about-text">When I’m not coding, I’m usually studying Japanese, hiking or spending time with friends.</p>
 
-        <p>Languages: English, Spanish and Japanese (N3+).</p>
+        <p>Languages: English, Spanish and Japanese (N2).</p>
     </div>
     `
 }

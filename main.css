@@ -20,13 +20,10 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    
     background-image: url(img/chion1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0% 37%;
-    
-    
+    background-position: 53% 37%;
     background-attachment: fixed;
 }
 
@@ -137,7 +134,7 @@ header{
     width: 93%;
     padding: 10px 0px;
     border-radius: 3px;
-    
+    margin: 55% auto;
     font-size: 19px;
     color: rgb(241, 241, 241);
     
@@ -310,27 +307,12 @@ footer{
     }
 
    
+    body{
     
-/*
-    
-    nav{
-        
-        
-        height: 100%;
-        padding: 0;
+        background-position: 0% 37%;
         
     }
 
-     
-
-    nav ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-
-    }
-*/
     .name{
         position: absolute;
         
